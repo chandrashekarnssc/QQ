@@ -17,7 +17,7 @@ class Result : AppCompatActivity() {
         val score =intent.getStringExtra(setData.score)
         val totalQuestion=intent.getStringExtra("total size")
 
-        congo.text="Congratulations ${Name}  !!"
+        congo.text="Congratulations to ${Name}  !!"
         Score.text="${score} / ${totalQuestion}"
         button.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))
