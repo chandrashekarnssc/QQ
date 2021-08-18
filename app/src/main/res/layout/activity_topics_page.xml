@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Topics_page"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:background="@drawable/layout">
+
+
+    <TextView
+        android:id="@+id/choose_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_topic"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/wildlife"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/wildlife2"
+        android:elevation="20dp"/>
+
+    <ImageButton
+        android:id="@+id/current_affairs"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/current_affairs"/>
+
+    <ImageButton
+        android:id="@+id/science"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/science"/>
+
+    <ImageButton
+        android:id="@+id/sports"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/sports"/>
+
+    <ImageButton
+        android:id="@+id/capitals"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/capitals"/>
+
+
+
+</LinearLayout>
+
+

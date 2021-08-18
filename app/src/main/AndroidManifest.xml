@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aacproject.example.quriosityquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quriosity Quiz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuriosityQuiz">
+
+        <activity
+            android:name=".Result"
+            android:theme="@style/Theme.MyQuiz" />
+        <activity
+            android:name=".cur_affairs"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".capitals"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".science_tech"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".sports"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".wildlife"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Topics_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyQuiz"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
