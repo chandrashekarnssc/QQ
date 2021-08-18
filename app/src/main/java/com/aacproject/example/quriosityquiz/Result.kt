@@ -13,11 +13,11 @@ class Result : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
         window.decorView.systemUiVisibility= View.SYSTEM_UI_FLAG_FULLSCREEN
-
+        val Name=intent.getStringExtra(userName.name)
         val score =intent.getStringExtra(setData.score)
         val totalQuestion=intent.getStringExtra("total size")
 
-
+        congo.text="Congratulations ${Name}  !!"
         Score.text="${score} / ${totalQuestion}"
         button.setOnClickListener {
             startActivity(Intent(this,MainActivity::class.java))

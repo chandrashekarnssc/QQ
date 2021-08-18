@@ -70,7 +70,7 @@ class sports : AppCompatActivity() {
                     }
                     else->{
                         val intent = Intent(this,Result::class.java)
-
+                        intent.putExtra(userName.name,Name.toString())
                         intent.putExtra(setData.score,score.toString())
                         intent.putExtra("total size", questionList!!.size.toString())
                         startActivity(intent)
